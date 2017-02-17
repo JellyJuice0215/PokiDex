@@ -3,7 +3,7 @@ import java.io.*;
 
 public class readC {
 
-	static String[] name, type1, type2, height, weight, groups, ability;
+	static String[] name, type1, type2, weight, group1, group2, ability1, ability2;
 
 	public static void ReadFile() {
 
@@ -23,10 +23,11 @@ public class readC {
 			name = new String[index];
 			type1 = new String[index];
 			type2 = new String[index];
-			height = new String[index];
+			ability1 = new String[index];
+			ability2 = new String[index];
 			weight = new String[index];
-			groups = new String[index];
-			ability = new String[index];
+			group1 = new String[index];
+			group2 = new String[index];
 
 			//proceed
 			String line;
@@ -38,10 +39,11 @@ public class readC {
 				name[ctr] = values[tempCt];
 				type1[ctr] = values[tempCt+1];
 				type2[ctr] = values[tempCt+2];
-				height[ctr] = values[tempCt+3];
-				weight[ctr] = values[tempCt+4];
-				groups[ctr] = values[tempCt+5];
-				ability[ctr] = values[tempCt+6];
+				ability1[ctr] = values[tempCt+3];
+				ability2[ctr] = values[tempCt+4];
+				weight[ctr] = values[tempCt+5];
+				group1[ctr] = values[tempCt+6];
+				group2[ctr] = values[tempCt+7];
 				ctr++;
 			}
 
