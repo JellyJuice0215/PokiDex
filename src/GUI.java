@@ -13,113 +13,73 @@ public class GUI extends JFrame implements ActionListener {
 	private static TextField fieldT;
 	private static JTable table;
 	private static JButton btn1, btn2;
-	private Component mousepanel;
-	private Container contentPane;
-	
-	public static void main (String[] args) {
-		new GUI();
-	}
-	
+	private Object[][] data;
+	private String[] columnames;
+	static int ctr = 0;
+	static int furtherIndex = 0;
+
 	public GUI() {
-		
-		mframe.setSize(JFRAME_WIDTH, JFRAME_HEIGHT);
-		mframe.setLocationRelativeTo(null);
-		mframe.setLayout(new FlowLayout());
-		mframe.setResizable(false);
-		mframe.setUndecorated(true);
-		mframe.setDefaultCloseOperation(EXIT_ON_CLOSE);
-		mframe.setVisible(true);
-		
-		contentPane = new Container();
+		setTitle("PokeDex");
+		setSize(JFRAME_WIDTH, JFRAME_HEIGHT);
+		setLocationRelativeTo(null);
+		setLayout(new FlowLayout());
+		setResizable(false);
+		//setUndecorated(true);
+		setVisible(true);
+
+		Container contentPane = getContentPane();
 		contentPane.setBackground(Color.white);
 		contentPane.setLayout(null);
+
+		control();
 		
-		table = new JTable(new TableLocale());
-		table.setPreferredScrollableViewportSize(new Dimension(700, 300));
+		table = new JTable(data, columnames) {
+			public boolean isCellEditable(int data, int columnames) {
+				return false;
+			}
+		};
+		table.addKeyListener((KeyListener) this);
+		table.setPreferredScrollableViewportSize(new Dimension(100, 100));
 		table.setFillsViewportHeight(true);
 		table.setVisible(true);
-		
+
 		JScrollPane scroll = new JScrollPane(table);
 		contentPane.add(scroll);
-		
-		HandlerClass handler = new HandlerClass();
-		mousepanel.addMouseListener(handler);
-		mousepanel.addMouseMotionListener(handler);
-		
+
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	
+	public void control() {
+		String[] columnames = {"name", 
+				"type 1", 
+				"type 2", 
+				"weight", 
+				"group 1", 
+				"group 2", 
+				"ability 1", 
+		"ability 2"};
 
-	class TableLocale extends AbstractTableModel {
-		
-		private String[] columnames = {"name", "type 1", "type 2", "weight", "group 1", "group 2", "ability 1", "ability 2"};
-		private Object[][] data;
-		
-		@Override
-		public int getColumnCount() {
-			return columnames.length;
-		}
-		
-		@Override
-		public int getRowCount() {
-			return data.length;
-		}
-		
-		@Override
-		public String getColumnName(int col) {
-			return columnames[col];
-		}
-		
-		@Override
-		public Object getValueAt(int row, int col) {
-			return data[row][col];
-		}
-		
-		@Override
-		public Class getColumnClass(int c) {
-			return getValueAt(0,c).getClass();
+		for (int i = 0; i < readC.name.length; i++){
+			data[ctr][i] = readC.name[furtherIndex];
+			data[ctr][i+1] = readC.type1[furtherIndex];
+			data[ctr][i+2] = readC.type2[furtherIndex];
+			data[ctr][i+3] = readC.weight[furtherIndex];
+			data[ctr][i+4] = readC.group1[furtherIndex];
+			data[ctr][i+5] = readC.group2[furtherIndex];
+			data[ctr][i+6] = readC.ability1[furtherIndex];
+			data[ctr][i+7] = readC.ability2[furtherIndex];
+			ctr++;
 		}
 	}
-	
-	private class HandlerClass implements MouseListener, MouseMotionListener {
-		
-		@Override
-		public void mouseClicked(MouseEvent e) {
 
-		}
-		
-		@Override
-		public void mouseReleased(MouseEvent event) {
-
-		}
-
-		@Override
-		public void mouseDragged(MouseEvent e) {
-			
-		}
-
-		@Override
-		public void mouseMoved(MouseEvent e) {
-			
-		}
-
-		@Override
-		public void mouseEntered(MouseEvent e) {
-			
-		}
-
-		@Override
-		public void mouseExited(MouseEvent e) {
-			
-		}
-
-		@Override
-		public void mousePressed(MouseEvent e) {
-			
-		}
-		
-	}
-	
 	public void actionPerformed(ActionEvent e) {
-		
+
 	}
+	
+	public static void main (String[] args) {
+		GUI g = new GUI();
+		g.setVisible(true);
+	}
+
 }
+
