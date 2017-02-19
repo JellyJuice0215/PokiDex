@@ -1,20 +1,21 @@
 import javax.swing.*;
 import java.io.*;
+import java.util.Arrays;
 
 public class readC {
 
-	static String[] name, type1, type2, weight, group1, group2, ability1, ability2;
-
-	public static void ReadFile() {
-
+	public static String[] name, type1, type2, weight, group1, group2, ability1, ability2;
+	
+	public static void readC() {		
+		
 		try {
-			File inFile = new File ("Pokindex.txt");
+			File inFile = new File ("PokiDex.txt");
 			File inFileI = new File ("index.txt");
 			FileReader fileReader = new FileReader(inFile);
 			FileReader fileReaderI = new FileReader(inFileI);
 			BufferedReader bufReader = new BufferedReader(fileReader);
 			BufferedReader bufReaderI = new BufferedReader(fileReaderI);
-
+			
 			//get number of poki
 			String strNumber;
 			strNumber = bufReaderI.readLine();
@@ -44,6 +45,9 @@ public class readC {
 				weight[ctr] = values[tempCt+5];
 				group1[ctr] = values[tempCt+6];
 				group2[ctr] = values[tempCt+7];
+				if (ctr == 151) {
+					break;
+				}
 				ctr++;
 			}
 
@@ -53,9 +57,51 @@ public class readC {
 			JOptionPane.showMessageDialog(null, "unable to initialize file!");
 		}
 	}
-	
+
 	public static void main (String[] args) {
-		ReadFile();
+		readC();
+		
+		System.out.println(Arrays.toString(name));
+
+		System.out.println(Arrays.toString(type1));
+
+		System.out.println(Arrays.toString(type2));
+
+		System.out.println(Arrays.toString(weight));
+
+		System.out.println(Arrays.toString(group1));
+
+		System.out.println(Arrays.toString(group2));
+
+		System.out.println(Arrays.toString(ability1));
+
+		System.out.println(Arrays.toString(ability2));
+		
+	}
+
+	public static String[] returnName() {
+		return (name);
+	}
+	public static String[] returnType1() {
+		return (type1);
+	}
+	public static String[] returnType2() {
+		return (type2);
+	}
+	public static String[] returnWeight() {
+		return (weight);
+	}
+	public static String[] returnGroup1() {
+		return (group1);
+	}
+	public static String[] returnGroup2() {
+		return (group2);
+	}
+	public static String[] returnAbility1() {
+		return (ability1);
+	}
+	public static String[] returnAbility2() {
+		return (ability2);
 	}
 
 }
