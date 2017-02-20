@@ -7,7 +7,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class GUI extends readC {
+public class GUI extends LocaleData {
 
 	private static final int JFRAME_WIDTH = 700;
 	private static final int JFRAME_HEIGHT = 500;
@@ -26,28 +26,19 @@ public class GUI extends readC {
 		mframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		mframe.setVisible(true);
 
-		System.out.println("DEBUG");
-
-		String[] aN = readC.returnName();
-		String[] aT1 = readC.returnType1();
-		String[] aT2 = readC.returnType2();
-		String[] aW = readC.returnWeight();
-		String[] aG1 = readC.returnGroup1();
-		String[] aG2 = readC.returnGroup2();
-		String[] aA1 = readC.returnAbility1();
-		String[] aA2 = readC.returnAbility2();
-
+		readC.importReader();
+		
 		String[][] data = new String[151][8];
 		
 		for (int i = 0; i < 151; i++){
-			data[i][0] =aN[i];
-			data[i][1] = aT1[i];
-			data[i][2] = aT2[i];
-			data[i][3] = aW[i];
-			data[i][4] = aG1[i];
-			data[i][5] = aG2[i];
-			data[i][6] = aA1[i];
-			data[i][7] = aA2[i];
+			data[i][0] = name[i];
+			data[i][1] = type1[i];
+			data[i][2] = type2[i];
+			data[i][3] = weight[i];
+			data[i][4] = group1[i];
+			data[i][5] = group2[i];
+			data[i][6] = ability1[i];
+			data[i][7] = ability2[i];
 		}
 
 		String[] columnames = {"name", 

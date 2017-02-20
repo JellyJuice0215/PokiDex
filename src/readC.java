@@ -2,11 +2,9 @@ import javax.swing.*;
 import java.io.*;
 import java.util.Arrays;
 
-public class readC {
-
-	public static String[] name, type1, type2, weight, group1, group2, ability1, ability2;
+public class readC extends LocaleData{
 	
-	public static void readC() {		
+	public static void importReader() {		
 		
 		try {
 			File inFile = new File ("PokiDex.txt");
@@ -59,49 +57,7 @@ public class readC {
 	}
 
 	public static void main (String[] args) {
-		readC();
-		
-		System.out.println(Arrays.toString(name));
-
-		System.out.println(Arrays.toString(type1));
-
-		System.out.println(Arrays.toString(type2));
-
-		System.out.println(Arrays.toString(weight));
-
-		System.out.println(Arrays.toString(group1));
-
-		System.out.println(Arrays.toString(group2));
-
-		System.out.println(Arrays.toString(ability1));
-
-		System.out.println(Arrays.toString(ability2));
+		importReader();
 		
 	}
-
-	public static String[] returnName() {
-		return (name);
-	}
-	public static String[] returnType1() {
-		return (type1);
-	}
-	public static String[] returnType2() {
-		return (type2);
-	}
-	public static String[] returnWeight() {
-		return (weight);
-	}
-	public static String[] returnGroup1() {
-		return (group1);
-	}
-	public static String[] returnGroup2() {
-		return (group2);
-	}
-	public static String[] returnAbility1() {
-		return (ability1);
-	}
-	public static String[] returnAbility2() {
-		return (ability2);
-	}
-
 }
