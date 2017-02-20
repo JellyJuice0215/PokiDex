@@ -16,20 +16,18 @@ public class GUI extends LocaleData {
 	private static JLabel statusbar;
 	private static TextField fieldT;
 	private static JButton btn1, btn2;
+	private JTable table;
 
 	public GUI() {	
 		mframe = new JFrame("PokeDex");
 		mframe.setSize(JFRAME_WIDTH, JFRAME_HEIGHT);
 		mframe.setLocationRelativeTo(null);
-		mframe.setResizable(false);
-		//setUndecorated(true);
-		mframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		mframe.setVisible(true);
+		mframe.getContentPane().setLayout(null);
 
 		readC.importReader();
-		
+
 		String[][] data = new String[151][8];
-		
+
 		for (int i = 0; i < 151; i++){
 			data[i][0] = name[i];
 			data[i][1] = type1[i];
@@ -49,15 +47,20 @@ public class GUI extends LocaleData {
 				"group 2", 
 				"ability 1", 
 		"ability 2"};
+
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(10, 94, 674, 366);
+		mframe.getContentPane().add(scrollPane);
+
+		table = new JTable(data, columnames);
+		scrollPane.setColumnHeaderView(table);
 		
-		panel = new JPanel();
-
-		JTable table = new JTable(data, columnames);
-		table.setPreferredScrollableViewportSize(new Dimension(100, 100));
-
-
-		JScrollPane scroll = new JScrollPane(table);
-		table.setFillsViewportHeight(true);
+		JScrollBar scrollBar = new JScrollBar();
+		scrollPane.setViewportView(scrollBar);
+		mframe.setResizable(false);
+		//setUndecorated(true);
+		mframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		mframe.setVisible(true);
 	}
 
 	public static void main (String[] args) {
