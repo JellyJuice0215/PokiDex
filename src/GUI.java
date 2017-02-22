@@ -26,19 +26,6 @@ public class GUI extends LocaleData {
 
 		readC.importReader();
 
-		String[][] data = new String[151][8];
-
-		for (int i = 0; i < 151; i++){
-			data[i][0] = name[i];
-			data[i][1] = type1[i];
-			data[i][2] = type2[i];
-			data[i][3] = weight[i];
-			data[i][4] = group1[i];
-			data[i][5] = group2[i];
-			data[i][6] = ability1[i];
-			data[i][7] = ability2[i];
-		}
-
 		String[] columnames = {"name", 
 				"type 1", 
 				"type 2", 
@@ -57,7 +44,6 @@ public class GUI extends LocaleData {
 		
 		JScrollBar scrollBar = new JScrollBar();
 		scrollPane.setViewportView(scrollBar);
-		mframe.setResizable(false);
 		//setUndecorated(true);
 		mframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		mframe.setVisible(true);

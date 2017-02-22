@@ -19,34 +19,21 @@ public class readC extends LocaleData{
 			strNumber = bufReaderI.readLine();
 			int index = Integer.parseInt(strNumber);
 			//assigning length to pokiDex
-			name = new String[index];
-			type1 = new String[index];
-			type2 = new String[index];
-			ability1 = new String[index];
-			ability2 = new String[index];
-			weight = new String[index];
-			group1 = new String[index];
-			group2 = new String[index];
+			data = new String[151][8];
 
 			//proceed
 			String line;
-			int ctr = 0;
+			int tempCt = 0;
 			while((line = bufReader.readLine()) != null) {
 				String[] values = line.split(",");
-				int tempCt = 0;
-
-				name[ctr] = values[tempCt];
-				type1[ctr] = values[tempCt+1];
-				type2[ctr] = values[tempCt+2];
-				ability1[ctr] = values[tempCt+3];
-				ability2[ctr] = values[tempCt+4];
-				weight[ctr] = values[tempCt+5];
-				group1[ctr] = values[tempCt+6];
-				group2[ctr] = values[tempCt+7];
-				if (ctr == 151) {
+				
+				for (int i = 0; i < 8; i++) {
+					data[tempCt][i] = values[i];
+				}
+				if (tempCt == 151) {
 					break;
 				}
-				ctr++;
+				tempCt++;
 			}
 
 			bufReader.close();

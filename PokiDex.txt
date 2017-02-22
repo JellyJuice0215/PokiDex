@@ -26,10 +26,10 @@ Pikachu,Electric,-,Static,-,6,Field,Fairy
 Raichu,Electric,-,Static,-,30,Field,Fairy
 Sandshrew,Ground,-,Sand Veil,-,12,Field,-
 Sandslash,Ground,-,Sand Veil,-,30,Field,-
-Nidoran ¡â,Poison,-,Poison Point,Rivalry,7,Monster,Field
+Nidoran,Poison,-,Poison Point,Rivalry,7,Monster,Field
 Nidorina,Poison,-,Poison Point,Rivalry,20,-,-
 Nidoqueen,Poison,Ground,Poison Point,Rivalry,60,-,-
-Nidoran ¡á,Poison,-,Poison Point,Rivalry,9,Monster,Field
+Nidoran,Poison,-,Poison Point,Rivalry,9,Monster,Field
 Nidorino,Poison,-,Poison Point,Rivalry,20,Monster,Field
 Nidoking,Poison,Ground,Poison Point,Rivalry,62,Monster,Field
 Clefairy,Normal,-,Cute Charm,Magic Guard,8,Fairy,-
