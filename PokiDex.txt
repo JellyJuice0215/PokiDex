@@ -1,151 +1,151 @@
-Bulbasaur,Grass,Poison,Overgrow,-,7,Monster,Grass
-Ivysaur,Grass,Poison,Overgrow,-,13,Monster,Grass
-Venusaur,Grass,Poison,Overgrow,-,100,Monster,Grass
-Charmander,Fire,-,Blaze,-,9,Monster,Dragon
-Charmeleon,Fire,-,Blaze,-,19,Monster,Dragon
-Charizard,Fire,Flying,Blaze,-,91,Monster,Dragon
-Squirtle,Water,-,Torrent,-,9,Monster,Water 1
-Wartortle,Water,-,Torrent,-,23,Monster,Water 1
-Blastoise,Water,-,Torrent,-,86,Monster,Water 1
-Caterpie,Bug,-,Shield Dust,-,3,Bug,-
-Metapod,Bug,-,Shed Skin,-,10,Bug,-
-Butterfree,Bug,Flying,Compoundeyes,-,32,Bug,-
-Weedle,Bug,Poison,Shield Dust,-,3,Bug,-
-Kakuna,Bug,Poison,Shed Skin,-,10,Bug,-
-Beedrill,Bug,Poison,Swarm,-,30,Bug,-
-Pidgey,Normal,Flying,Keen Eye,Tangled Feet,2,Flying,-
-Pidgeotto,Normal,Flying,Keen Eye,Tangled Feet,30,Flying,-
-Pidgeot,Normal,Flying,Keen Eye,Tangled Feet,40,Flying,-
-Rattata,Normal,-,Run Away,Guts,4,Field,-
-Raticate,Normal,-,Run Away,-,19,Field,-
-Spearow,Normal,Flying,Keen Eye,-,2,Flying,-
-Fearow,Normal,Flying,Keen Eye,-,38,Flying,-
-Ekans,Poison,-,Intimidate,Shed Skin,7,Field,Dragon
-Arbok,Poison,-,Intimidate,Shed Skin,65,Field,Dragon
-Pikachu,Electric,-,Static,-,6,Field,Fairy
-Raichu,Electric,-,Static,-,30,Field,Fairy
-Sandshrew,Ground,-,Sand Veil,-,12,Field,-
-Sandslash,Ground,-,Sand Veil,-,30,Field,-
-Nidoran,Poison,-,Poison Point,Rivalry,7,Monster,Field
-Nidorina,Poison,-,Poison Point,Rivalry,20,-,-
-Nidoqueen,Poison,Ground,Poison Point,Rivalry,60,-,-
-Nidoran,Poison,-,Poison Point,Rivalry,9,Monster,Field
-Nidorino,Poison,-,Poison Point,Rivalry,20,Monster,Field
-Nidoking,Poison,Ground,Poison Point,Rivalry,62,Monster,Field
-Clefairy,Normal,-,Cute Charm,Magic Guard,8,Fairy,-
-Clefable,Normal,-,Cute Charm,Magic Guard,40,Fairy,-
-Vulpix,Fire,-,Flash Fire,-,10,Field,-
-Ninetales,Fire,-,Flash Fire,-,20,Field,-
-Jigglypuff,Normal,-,Cute Charm,-,6,Fairy,-
-Wigglytuff,Normal,-,Cute Charm,-,12,Fairy,-
-Zubat,Poison,Flying,Inner Focus,-,8,Flying,-
-Golbat,Poison,Flying,Inner Focus,-,55,Flying,-
-Oddish,Grass,Poison,Chlorophyll,-,5,Grass,-
-Gloom,Grass,Poison,Chlorophyll,-,9,Grass,-
-Vileplume,Grass,Poison,Chlorophyll,-,19,Grass,-
-Paras,Bug,Grass,Effect Spore,Dry Skin,5,Bug,Grass
-Parasect,Bug,Grass,Effect Spore,Dry Skin,30,Bug,Grass
-Venonat,Bug,Poison,Compoundeyes,Tinted Lens,30,Bug,-
-Venomoth,Bug,Poison,Shield Dust,Tinted Lens,13,Bug,-
-Diglett,Ground,-,Sand Veil,Arena Trap,1,Field,-
-Dugtrio,Ground,-,Sand Veil,Arena Trap,33,Field,-
-Meowth,Normal,-,Pickup,Technician,4,Field,-
-Persian,Normal,-,Limber,Technician,32,Field,-
-Psyduck,Water,-,Damp,Cloud Nine,20,Water 1,Field
-Golduck,Water,-,Damp,Cloud Nine,77,Water 1,Field
-Mankey,Fighting,-,Vital Spirit,Anger Point,28,Field,-
-Primeape,Fighting,-,Vital Spirit,Anger Point,32,Field,-
-Growlithe,Fire,-,Intimidate,Flash Fire,19,Field,-
-Arcanine,Fire,-,Intimidate,Flash Fire,155,Field,-
-Poliwag,Water,-,Water Absorb,Damp,12,Water 1,-
-Poliwhirl,Water,-,Water Absorb,Damp,20,Water 1,-
-Poliwrath,Water,Fighting,Water Absorb,Damp,54,Water 1,-
-Abra,Psychic,-,Synchronize,Inner Focus,20,Human-Like,-
-Kadabra,Psychic,-,Synchronize,Inner Focus,57,Human-Like,-
-Alakazam,Psychic,-,Synchronize,Inner Focus,48,Human-Like,-
-Machop,Fighting,-,Guts,No Guard,20,Human-Like,-
-Machoke,Fighting,-,Guts,No Guard,71,Human-Like,-
-Machamp,Fighting,-,Guts,No Guard,130,Human-Like,-
-Bellsprout,Grass,Poison,Chlorophyll,-,4,Grass,-
-Weepinbell,Grass,Poison,Chlorophyll,-,6,Grass,-
-Victreebel,Grass,Poison,Chlorophyll,-,16,Grass,-
-Tentacool,Water,Poison,Clear Body,Liquid Ooze,46,Water 3,-
-Tentacruel,Water,Poison,Clear Body,Liquid Ooze,55,Water 3,-
-Geodude,Rock,Ground,Rock Head,Sturdy,20,Mineral,-
-Graveler,Rock,Ground,Rock Head,Sturdy,105,Mineral,-
-Golem,Rock,Ground,Rock Head,Sturdy,300,Mineral,-
-Ponyta,Fire,-,Run Away,Flash Fire,30,Field,-
-Rapidash,Fire,-,Run Away,Flash Fire,95,Field,-
-Slowpoke,Water,Psychic,Oblivious,Own Tempo,36,Monster,Water 1
-Slowbro,Water,Psychic,Oblivious,Own Tempo,79,Monster,Water 1
-Magnemite,Electric,Steel,Magnet Pull,Sturdy,6,Mineral,-
-Magneton,Electric,Steel,Magnet Pull,Sturdy,60,Mineral,-
-Farfetch'd,Normal,Flying,Keen Eye,Inner Focus,15,Flying,Field
-Doduo,Normal,Flying,Run Away,Early Bird,39,Flying,-
-Dodrio,Normal,Flying,Run Away,Early Bird,85,Flying,-
-Seel,Water,-,Thick Fat,Hydration,90,Water 1,Field
-Dewgong,Water,Ice,Thick Fat,Hydration,120,Water 1,Field
-Grimer,Poison,-,Stench,Sticky Hold,30,Amorphous,-
-Muk,Poison,-,Stench,Sticky Hold,30,Amorphous,-
-Shellder,Water,-,Shell Armor,Skill Link,4,Water 3,-
-Cloyster,Water,Ice,Shell Armor,Skill Link,133,Water 3,-
-Gastly,Ghost,Poison,Levitate,-,0,Amorphous,-
-Haunter,Ghost,Poison,Levitate,-,0,Amorphous,-
-Gengar,Ghost,Poison,Levitate,-,41,Amorphous,-
-Onix,Rock,Ground,Rock Head,Sturdy,210,Mineral,-
-Drowzee,Psychic,-,Insomnia,Forewarn,32,Human-Like,-
-Hypno,Psychic,-,Insomnia,Forewarn,76,Human-Like,-
-Krabby,Water,-,Hyper Cutter,Shell Armor,7,Water 3,-
-Kingler,Water,-,Hyper Cutter,Shell Armor,60,Water 3,-
-Voltorb,Electric,-,Soundproof,Static,10,Mineral,-
-Electrode,Electric,-,Soundproof,Static,67,Mineral,-
-Exeggcute,Grass,Psychic,Chlorophyll,-,3,Grass,-
-Exeggutor,Grass,Psychic,Chlorophyll,-,120,Grass,-
-Cubone,Ground,-,Rock Head,Lightningrod,7,Monster,-
-Marowak,Ground,-,Rock Head,Lightningrod,45,Monster,-
-Hitmonlee,Fighting,-,Limber,Reckless,50,Human-Like,-
-Hitmonchan,Fighting,-,Keen Eye,Iron Fist,50,Human-Like,-
-Lickitung,Normal,-,Own Tempo,Oblivious,66,Monster,-
-Koffing,Poison,-,Levitate,-,1,Amorphous,-
-Weezing,Poison,-,Levitate,-,10,Amorphous,-
-Rhyhorn,Ground,Rock,Lightningrod,Rock Head,115,Monster,Field
-Rhydon,Ground,Rock,Lightningrod,Rock Head,120,Monster,Field
-Chansey,Normal,-,Natural Cure,Serene Grace,35,Fairy,-
-Tangela,Grass,-,Chlorophyll,Leaf Guard,35,Grass,-
-Kangaskhan,Normal,-,Early Bird,Scrappy,80,Monster,-
-Horsea,Water,-,Swift Swim,Sniper,8,Water 1,Dragon
-Seadra,Water,-,Poison Point,Sniper,25,Water 1,Dragon
-Goldeen,Water,-,Swift Swim,Water Veil,15,Water 2,-
-Seaking,Water,-,Swift Swim,Water Veil,39,Water 2,-
-Staryu,Water,-,Illuminate,Natural Cure,35,Water 3,-
-Starmie,Water,Psychic,Illuminate,Natural Cure,80,Water 3,-
-Mr. Mime,Psychic,-,Soundproof,Filter,55,Human-Like,-
-Scyther,Bug,Flying,Swarm,Technician,56,Bug,-
-Jynx,Ice,Psychic,Oblivious,Forewarn,41,Human-Like,-
-Electabuzz,Electric,-,Static,-,30,Human-Like,-
-Magmar,Fire,-,Flame Body,-,45,Human-Like,-
-Pinsir,Bug,-,Hyper Cutter,Mold Breaker,55,Bug,-
-Tauros,Normal,-,Intimidate,Anger Point,88,Field,-
-Magikarp,Water,-,Swift Swim,-,10,Water 2,Dragon
-Gyarados,Water,Flying,Intimidate,-,235,Water 2,Dragon
-Lapras,Water,Ice,Water Absorb,Shell Armor,220,Monster,Water 1
-Ditto,Normal,-,Limber,-,4,Ditto,-
-Eevee,Normal,-,Run Away,Adaptability,7,Field,-
-Vaporeon,Water,-,Water Absorb,-,29,Field,-
-Jolteon,Electric,-,Volt Absorb,-,25,Field,-
-Flareon,Fire,-,Flash Fire,-,25,Field,-
-Porygon,Normal,-,Trace,Download,37,Mineral,-
-Omanyte,Rock,Water,Swift Swim,Shell Armor,8,Water 1,Water 3
-Omastar,Rock,Water,Swift Swim,Shell Armor,35,Water 1,Water 3
-Kabuto,Rock,Water,Swift Swim,Battle Armor,12,Water 1,Water 3
-Kabutops,Rock,Water,Swift Swim,Battle Armor,41,Water 1,Water 3
-Aerodactyl,Rock,Flying,Rock Head,Pressure,59,Flying,-
-Snorlax,Normal,-,Immunity,Thick Fat,460,Monster,-
-Articuno,Ice,Flying,Pressure,-,55,-,-
-Zapdos,Electric,Flying,Pressure,-,53,-,-
-Moltres,Fire,Flying,Pressure,-,60,-,-
-Dratini,Dragon,-,Shed Skin,-,3,Water 1,Dragon
-Dragonair,Dragon,-,Shed Skin,-,17,Water 1,Dragon
-Dragonite,Dragon,Flying,Inner Focus,-,210,Water 1,Dragon
-Mewtwo,Psychic,-,Pressure,-,122,-,-
-Mew,Psychic,-,Synchronize,-,4,-,-
+Bulbasaur,Grass,Poison,Overgrow,-,7,Monster,Grass,1
+Ivysaur,Grass,Poison,Overgrow,-,13,Monster,Grass,2
+Venusaur,Grass,Poison,Overgrow,-,100,Monster,Grass,3
+Charmander,Fire,-,Blaze,-,9,Monster,Dragon,4
+Charmeleon,Fire,-,Blaze,-,19,Monster,Dragon,5
+Charizard,Fire,Flying,Blaze,-,91,Monster,Dragon,6
+Squirtle,Water,-,Torrent,-,9,Monster,Water 1,7
+Wartortle,Water,-,Torrent,-,23,Monster,Water 1,8
+Blastoise,Water,-,Torrent,-,86,Monster,Water 1,9
+Caterpie,Bug,-,Shield Dust,-,3,Bug,-,10
+Metapod,Bug,-,Shed Skin,-,10,Bug,-,11
+Butterfree,Bug,Flying,Compoundeyes,-,32,Bug,-,12
+Weedle,Bug,Poison,Shield Dust,-,3,Bug,-,13
+Kakuna,Bug,Poison,Shed Skin,-,10,Bug,-,14
+Beedrill,Bug,Poison,Swarm,-,30,Bug,-,15
+Pidgey,Normal,Flying,Keen Eye,Tangled Feet,2,Flying,-,16
+Pidgeotto,Normal,Flying,Keen Eye,Tangled Feet,30,Flying,-,17
+Pidgeot,Normal,Flying,Keen Eye,Tangled Feet,40,Flying,-,18
+Rattata,Normal,-,Run Away,Guts,4,Field,-,19
+Raticate,Normal,-,Run Away,-,19,Field,-,20
+Spearow,Normal,Flying,Keen Eye,-,2,Flying,-,21
+Fearow,Normal,Flying,Keen Eye,-,38,Flying,-,22
+Ekans,Poison,-,Intimidate,Shed Skin,7,Field,Dragon,23
+Arbok,Poison,-,Intimidate,Shed Skin,65,Field,Dragon,24
+Pikachu,Electric,-,Static,-,6,Field,Fairy,25
+Raichu,Electric,-,Static,-,30,Field,Fairy,26
+Sandshrew,Ground,-,Sand Veil,-,12,Field,-,27
+Sandslash,Ground,-,Sand Veil,-,30,Field,-,28
+Nidoran,Poison,-,Poison Point,Rivalry,7,Monster,Field,29
+Nidorina,Poison,-,Poison Point,Rivalry,20,-,-,30
+Nidoqueen,Poison,Ground,Poison Point,Rivalry,60,-,-,31
+Nidoran,Poison,-,Poison Point,Rivalry,9,Monster,Field,32
+Nidorino,Poison,-,Poison Point,Rivalry,20,Monster,Field,33
+Nidoking,Poison,Ground,Poison Point,Rivalry,62,Monster,Field,34
+Clefairy,Normal,-,Cute Charm,Magic Guard,8,Fairy,-,35
+Clefable,Normal,-,Cute Charm,Magic Guard,40,Fairy,-,36
+Vulpix,Fire,-,Flash Fire,-,10,Field,-,37
+Ninetales,Fire,-,Flash Fire,-,20,Field,-,38
+Jigglypuff,Normal,-,Cute Charm,-,6,Fairy,-,39
+Wigglytuff,Normal,-,Cute Charm,-,12,Fairy,-,40
+Zubat,Poison,Flying,Inner Focus,-,8,Flying,-,41
+Golbat,Poison,Flying,Inner Focus,-,55,Flying,-,42
+Oddish,Grass,Poison,Chlorophyll,-,5,Grass,-,43
+Gloom,Grass,Poison,Chlorophyll,-,9,Grass,-,44
+Vileplume,Grass,Poison,Chlorophyll,-,19,Grass,-,45
+Paras,Bug,Grass,Effect Spore,Dry Skin,5,Bug,Grass,46
+Parasect,Bug,Grass,Effect Spore,Dry Skin,30,Bug,Grass,47
+Venonat,Bug,Poison,Compoundeyes,Tinted Lens,30,Bug,-,48
+Venomoth,Bug,Poison,Shield Dust,Tinted Lens,13,Bug,-,49
+Diglett,Ground,-,Sand Veil,Arena Trap,1,Field,-,50
+Dugtrio,Ground,-,Sand Veil,Arena Trap,33,Field,-,51
+Meowth,Normal,-,Pickup,Technician,4,Field,-,52
+Persian,Normal,-,Limber,Technician,32,Field,-,53
+Psyduck,Water,-,Damp,Cloud Nine,20,Water 1,Field,54
+Golduck,Water,-,Damp,Cloud Nine,77,Water 1,Field,55
+Mankey,Fighting,-,Vital Spirit,Anger Point,28,Field,-,56
+Primeape,Fighting,-,Vital Spirit,Anger Point,32,Field,-,57
+Growlithe,Fire,-,Intimidate,Flash Fire,19,Field,-,58
+Arcanine,Fire,-,Intimidate,Flash Fire,155,Field,-,59
+Poliwag,Water,-,Water Absorb,Damp,12,Water 1,-,60
+Poliwhirl,Water,-,Water Absorb,Damp,20,Water 1,-,61
+Poliwrath,Water,Fighting,Water Absorb,Damp,54,Water 1,-,62
+Abra,Psychic,-,Synchronize,Inner Focus,20,Human-Like,-,63
+Kadabra,Psychic,-,Synchronize,Inner Focus,57,Human-Like,-,64
+Alakazam,Psychic,-,Synchronize,Inner Focus,48,Human-Like,-,65
+Machop,Fighting,-,Guts,No Guard,20,Human-Like,-,66
+Machoke,Fighting,-,Guts,No Guard,71,Human-Like,-,67
+Machamp,Fighting,-,Guts,No Guard,130,Human-Like,-,68
+Bellsprout,Grass,Poison,Chlorophyll,-,4,Grass,-,69
+Weepinbell,Grass,Poison,Chlorophyll,-,6,Grass,-,70
+Victreebel,Grass,Poison,Chlorophyll,-,16,Grass,-,71
+Tentacool,Water,Poison,Clear Body,Liquid Ooze,46,Water 3,-,72
+Tentacruel,Water,Poison,Clear Body,Liquid Ooze,55,Water 3,-,73
+Geodude,Rock,Ground,Rock Head,Sturdy,20,Mineral,-,74
+Graveler,Rock,Ground,Rock Head,Sturdy,105,Mineral,-,75
+Golem,Rock,Ground,Rock Head,Sturdy,300,Mineral,-,76
+Ponyta,Fire,-,Run Away,Flash Fire,30,Field,-,77
+Rapidash,Fire,-,Run Away,Flash Fire,95,Field,-,78
+Slowpoke,Water,Psychic,Oblivious,Own Tempo,36,Monster,Water 1,79
+Slowbro,Water,Psychic,Oblivious,Own Tempo,79,Monster,Water 1,80
+Magnemite,Electric,Steel,Magnet Pull,Sturdy,6,Mineral,-,81
+Magneton,Electric,Steel,Magnet Pull,Sturdy,60,Mineral,-,82
+Farfetch'd,Normal,Flying,Keen Eye,Inner Focus,15,Flying,Field,83
+Doduo,Normal,Flying,Run Away,Early Bird,39,Flying,-,84
+Dodrio,Normal,Flying,Run Away,Early Bird,85,Flying,-,85
+Seel,Water,-,Thick Fat,Hydration,90,Water 1,Field,86
+Dewgong,Water,Ice,Thick Fat,Hydration,120,Water 1,Field,87
+Grimer,Poison,-,Stench,Sticky Hold,30,Amorphous,-,88
+Muk,Poison,-,Stench,Sticky Hold,30,Amorphous,-,89
+Shellder,Water,-,Shell Armor,Skill Link,4,Water 3,-,90
+Cloyster,Water,Ice,Shell Armor,Skill Link,133,Water 3,-,91
+Gastly,Ghost,Poison,Levitate,-,0,Amorphous,-,92
+Haunter,Ghost,Poison,Levitate,-,0,Amorphous,-,93
+Gengar,Ghost,Poison,Levitate,-,41,Amorphous,-,94
+Onix,Rock,Ground,Rock Head,Sturdy,210,Mineral,-,95
+Drowzee,Psychic,-,Insomnia,Forewarn,32,Human-Like,-,96
+Hypno,Psychic,-,Insomnia,Forewarn,76,Human-Like,-,97
+Krabby,Water,-,Hyper Cutter,Shell Armor,7,Water 3,-,98
+Kingler,Water,-,Hyper Cutter,Shell Armor,60,Water 3,-,99
+Voltorb,Electric,-,Soundproof,Static,10,Mineral,-,100
+Electrode,Electric,-,Soundproof,Static,67,Mineral,-,101
+Exeggcute,Grass,Psychic,Chlorophyll,-,3,Grass,-,102
+Exeggutor,Grass,Psychic,Chlorophyll,-,120,Grass,-,103
+Cubone,Ground,-,Rock Head,Lightningrod,7,Monster,-,104
+Marowak,Ground,-,Rock Head,Lightningrod,45,Monster,-,105
+Hitmonlee,Fighting,-,Limber,Reckless,50,Human-Like,-,106
+Hitmonchan,Fighting,-,Keen Eye,Iron Fist,50,Human-Like,-,107
+Lickitung,Normal,-,Own Tempo,Oblivious,66,Monster,-,108
+Koffing,Poison,-,Levitate,-,1,Amorphous,-,109
+Weezing,Poison,-,Levitate,-,10,Amorphous,-,110
+Rhyhorn,Ground,Rock,Lightningrod,Rock Head,115,Monster,Field,111
+Rhydon,Ground,Rock,Lightningrod,Rock Head,120,Monster,Field,112
+Chansey,Normal,-,Natural Cure,Serene Grace,35,Fairy,-,113
+Tangela,Grass,-,Chlorophyll,Leaf Guard,35,Grass,-,114
+Kangaskhan,Normal,-,Early Bird,Scrappy,80,Monster,-,115
+Horsea,Water,-,Swift Swim,Sniper,8,Water 1,Dragon,116
+Seadra,Water,-,Poison Point,Sniper,25,Water 1,Dragon,117
+Goldeen,Water,-,Swift Swim,Water Veil,15,Water 2,-,118
+Seaking,Water,-,Swift Swim,Water Veil,39,Water 2,-,119
+Staryu,Water,-,Illuminate,Natural Cure,35,Water 3,-,120
+Starmie,Water,Psychic,Illuminate,Natural Cure,80,Water 3,-,121
+Mr. Mime,Psychic,-,Soundproof,Filter,55,Human-Like,-,122
+Scyther,Bug,Flying,Swarm,Technician,56,Bug,-,123
+Jynx,Ice,Psychic,Oblivious,Forewarn,41,Human-Like,-,124
+Electabuzz,Electric,-,Static,-,30,Human-Like,-,125
+Magmar,Fire,-,Flame Body,-,45,Human-Like,-,126
+Pinsir,Bug,-,Hyper Cutter,Mold Breaker,55,Bug,-,127
+Tauros,Normal,-,Intimidate,Anger Point,88,Field,-,128
+Magikarp,Water,-,Swift Swim,-,10,Water 2,Dragon,129
+Gyarados,Water,Flying,Intimidate,-,235,Water 2,Dragon,130
+Lapras,Water,Ice,Water Absorb,Shell Armor,220,Monster,Water 1,131
+Ditto,Normal,-,Limber,-,4,Ditto,-,132
+Eevee,Normal,-,Run Away,Adaptability,7,Field,-,133
+Vaporeon,Water,-,Water Absorb,-,29,Field,-,134
+Jolteon,Electric,-,Volt Absorb,-,25,Field,-,135
+Flareon,Fire,-,Flash Fire,-,25,Field,-,136
+Porygon,Normal,-,Trace,Download,37,Mineral,-,137
+Omanyte,Rock,Water,Swift Swim,Shell Armor,8,Water 1,Water 3,138
+Omastar,Rock,Water,Swift Swim,Shell Armor,35,Water 1,Water 3,139
+Kabuto,Rock,Water,Swift Swim,Battle Armor,12,Water 1,Water 3,140
+Kabutops,Rock,Water,Swift Swim,Battle Armor,41,Water 1,Water 3,141
+Aerodactyl,Rock,Flying,Rock Head,Pressure,59,Flying,-,142
+Snorlax,Normal,-,Immunity,Thick Fat,460,Monster,-,143
+Articuno,Ice,Flying,Pressure,-,55,-,-,144
+Zapdos,Electric,Flying,Pressure,-,53,-,-,145
+Moltres,Fire,Flying,Pressure,-,60,-,-,146
+Dratini,Dragon,-,Shed Skin,-,3,Water 1,Dragon,147
+Dragonair,Dragon,-,Shed Skin,-,17,Water 1,Dragon,148
+Dragonite,Dragon,Flying,Inner Focus,-,210,Water 1,Dragon,149
+Mewtwo,Psychic,-,Pressure,-,122,-,-,150
+Mew,Psychic,-,Synchronize,-,4,-,-,151

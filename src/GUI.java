@@ -1,4 +1,7 @@
+import javax.imageio.ImageIO;
 import javax.swing.*;
+import java.awt.image.*;
+import java.awt.image.BufferedImage;
 import javax.swing.border.Border;
 import javax.swing.table.AbstractTableModel;
 import java.awt.*;
@@ -24,7 +27,7 @@ public class GUI extends LocaleData implements ActionListener{
 	private JPanel parts;
 	private JLabel backset;
 	private JLabel a1, a2, t1, t2, gr1, gr2, weight;
-
+	
 	public GUI() {	
 		mframe = new JFrame("PokeDex");
 		mframe.setSize(JFRAME_WIDTH, JFRAME_HEIGHT);
@@ -75,7 +78,7 @@ public class GUI extends LocaleData implements ActionListener{
 
 		//static components
 		searchID = new TextField();
-		searchID.setBounds(260,95,100,27);
+		searchID.setBounds(240,95,120,27);
 		searchID.setFont(new Font("Work Sans",1,16));
 		mframe.getContentPane().add(searchID);
 		searchID.addActionListener(this);
@@ -96,7 +99,7 @@ public class GUI extends LocaleData implements ActionListener{
 		gr2.setBounds(600,385,170,40);
 		mframe.getContentPane().add(gr2);
 		a1 = new JLabel("", SwingConstants.CENTER);
-		a1.setBounds(600,429,170,40);
+		a1.setBounds(605,429,170,40);
 		mframe.getContentPane().add(a1);
 		a2 = new JLabel("", SwingConstants.CENTER);
 		a2.setBounds(600,470,170,40);
@@ -124,7 +127,18 @@ public class GUI extends LocaleData implements ActionListener{
 	}
 
 	public static void main (String[] args) {
+		ImageRetrieve();
+		
 		new GUI();
+	}
+	
+	public static void ImageRetrieve() {
+		BufferedImage img = null;
+		try {
+			img = ImageIO.read(new File(""));
+		} catch (IOException e) {
+			JOptionPane.showMessageDialog(null, "An error has occured when loading the image.");
+		}
 	}
 
 	private int ctr = 0;
@@ -185,7 +199,7 @@ public class GUI extends LocaleData implements ActionListener{
 			}
 		}
 		if (clickedButton == next) {
-			if (ctr != 0 && ctr < 150) {
+			if (ctr < 150) {
 				ctr++;
 				backset.setIcon(new ImageIcon("images/backset.png"));
 				searchID.setText(data[ctr][0]);
