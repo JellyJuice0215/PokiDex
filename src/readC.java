@@ -43,9 +43,4 @@ public class readC extends LocaleData{
 			JOptionPane.showMessageDialog(null, "unable to initialize file!");
 		}
 	}
-
-	public static void main (String[] args) {
-		importReader();
-		
-	}
 }
