@@ -29,6 +29,7 @@ public class readC extends LocaleData{
 				
 				for (int i = 0; i < 8; i++) {
 					data[tempCt][i] = values[i];
+					imgIndex[tempCt] = Integer.parseInt(values[8]);
 				}
 				if (tempCt == 151) {
 					break;

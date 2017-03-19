@@ -126,19 +126,8 @@ public class GUI extends LocaleData implements ActionListener{
 		mframe.setVisible(true);
 	}
 
-	public static void main (String[] args) {
-		ImageRetrieve();
-		
+	public static void main (String[] args) {	
 		new GUI();
-	}
-	
-	public static void ImageRetrieve() {
-		BufferedImage img = null;
-		try {
-			img = ImageIO.read(new File(""));
-		} catch (IOException e) {
-			JOptionPane.showMessageDialog(null, "An error has occured when loading the image.");
-		}
 	}
 
 	private int ctr = 0;
@@ -151,6 +140,7 @@ public class GUI extends LocaleData implements ActionListener{
 			try {
 				while (true) {
 					if (textEnter.equals(data[ctr][0])) {
+						readme.setIcon(new ImageIcon("images/Pokemons/"+ imgIndex[ctr] + ".png"));
 						backset.setIcon(new ImageIcon("images/backset.png"));
 						a1.setText(data[ctr][3]);
 						a1.setFont(new Font("Small Fonts",1,17));
@@ -178,6 +168,7 @@ public class GUI extends LocaleData implements ActionListener{
 			if (ctr != 0 && ctr < 151) {
 				ctr--;
 				backset.setIcon(new ImageIcon("images/backset.png"));
+				readme.setIcon(new ImageIcon("images/Pokemons/"+ imgIndex[ctr] + ".png"));
 				searchID.setText(data[ctr][0]);
 				a1.setText(data[ctr][3]);
 				a1.setFont(new Font("Small Fonts",1,17));
@@ -202,6 +193,7 @@ public class GUI extends LocaleData implements ActionListener{
 			if (ctr < 150) {
 				ctr++;
 				backset.setIcon(new ImageIcon("images/backset.png"));
+				readme.setIcon(new ImageIcon("images/Pokemons/"+ imgIndex[ctr] + ".png"));
 				searchID.setText(data[ctr][0]);
 				a1.setText(data[ctr][3]);
 				a1.setFont(new Font("Small Fonts",1,17));
