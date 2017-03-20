@@ -1,16 +1,6 @@
-import javax.imageio.ImageIO;
 import javax.swing.*;
-import java.awt.image.*;
-import java.awt.image.BufferedImage;
-import javax.swing.border.Border;
-import javax.swing.table.AbstractTableModel;
 import java.awt.*;
 import java.awt.event.*;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Arrays;
 
 public class GUI extends LocaleData implements ActionListener{
 
@@ -139,7 +129,7 @@ public class GUI extends LocaleData implements ActionListener{
 			String textEnter = searchID.getText();
 			try {
 				while (true) {
-					if (textEnter.equals(data[ctr][0])) {
+					if (textEnter.equalsIgnoreCase(data[ctr][0])) {
 						readme.setIcon(new ImageIcon("images/Pokemons/"+ imgIndex[ctr] + ".png"));
 						backset.setIcon(new ImageIcon("images/backset.png"));
 						a1.setText(data[ctr][3]);
